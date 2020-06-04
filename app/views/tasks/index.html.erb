@@ -2,17 +2,17 @@
 
 <ul>
     
-    <% @tasks.each do |task| %>
+  <% @tasks.each do |task| %>
     
-    <li>
-        <%= link_to task.id, task %>
+  <li>
+    <%= link_to task.id, task %>
         
-        <%= task.content %>
-        &gt;
-        <%= task.status %>
-    </li>
+    <%= task.content %>
+    &gt;
+    <%= task.status %>
+  </li>
     
-    <% end %>
+  <% end %>
     
 </ul>
 

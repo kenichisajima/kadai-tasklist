@@ -3,15 +3,15 @@
 <% if task.errors.any? %>
 
 <div id="error_explanetion">
-    <ul>
-        <% task.errors.full_messages.each do |msg| %>
+  <ul>
+    <% task.errors.full_messages.each do |msg| %>
         
-        <li>
-            <%= msg %>
-        </li>
+    <li>
+      <%= msg %>
+    </li>
         
-        <% end %>
-    </ul>
+    <% end %>
+  </ul>
 </div>
 
 <% end %>
